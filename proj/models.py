@@ -16,7 +16,7 @@ class Meeting(models.Model):
     location = models.CharField()
     start_time = models.DateTimeField()
     interval = models.DateTimeField()
-    color = models.IntegerField()
+    color = models.CharField()
 
     
 class Day(models.Model):
